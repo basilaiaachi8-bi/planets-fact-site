@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap");
+
+:root {
+  --bg-main: #070724;
+  --bg-card: #070724;
+  --text-primary: #ffffff;
+  --text-secondary: #838391;
+  --border-color: rgba(255, 255, 255, 0.2);
+
+  --color-mercury: #419ebb;
+  --color-venus: #eda249;
+  --color-earth: #6d2ed5;
+  --color-mars: #d14c32;
+  --color-jupiter: #d83a34;
+  --color-saturn: #cd5120;
+  --color-uranus: #1ec1a2;
+  --color-neptune: #2d68f0;
+
+  --font-heading: "Antonio", sans-serif;
+  --font-body: "League Spartan", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-main);
+  background-image: url("/assets/background-stars (1).svg");
+  background-repeat: repeat;
+  background-size: cover;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
